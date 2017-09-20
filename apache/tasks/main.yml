@@ -16,5 +16,5 @@
 - name: telnet 
   yum: package:{{ item }} state=present
   with_items: 
-  - telnet 
-  - nslookup
+- telnet 
+- nslookup
