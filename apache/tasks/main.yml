@@ -15,6 +15,6 @@
   copy: content={{ dynamic_content }} dest=/file_test
 - name: telnet 
   yum: package:{{ item }} state=present
-  with_items: 
-- telnet 
-- nslookup
+  with_item: 
+ - telnet
+ - squid
