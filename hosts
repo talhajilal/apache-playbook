@@ -1,5 +1,6 @@
 [web]
 localhost
+192.168.2.35
 [prod]
 lin-web-p-0*
 [dev]
