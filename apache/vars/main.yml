@@ -3,3 +3,4 @@
     http_port: 80
     max_client: 200
     port: 80898
+    facter_network_eth0: 192.168.2.36
