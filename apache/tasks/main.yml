@@ -13,3 +13,8 @@
   copy: content={{ result }} dest=/tmp/result
 - name: create a test file
   copy: content={{ dynamic_content }} dest=/file_test
+- name: telnet 
+  yum: package:{{ item }} state=present
+  with_items: 
+  - telnet 
+  - nslookup
