@@ -1,0 +1,4 @@
+---
+# tasks file for etc_hosts
+- name: /etc/hosts file
+  template: src=meta/hosts dest=/etc/hosts  own=root

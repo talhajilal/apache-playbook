@@ -5,4 +5,4 @@
       - apache
   roles:
        - apache
-
+       - etc_hosts
