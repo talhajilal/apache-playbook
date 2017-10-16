@@ -7,7 +7,7 @@
 - name: install apache
   yum: pkg=httpd state=present
 - name: copy httpd.conf file,
-  template: src=/tmp/httpd.conf.jinja dest=/httpd.conf  owner=apache group=apache
+  template: src=meta/httpd.conf.jinja dest=/httpd.conf  owner=apache group=apache
   register: result
 - name: testing result
   copy: content={{ result }} dest=/tmp/result
