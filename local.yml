@@ -1,6 +1,6 @@
 ---
 - name: Install apache
-  hosts: web-01
+  hosts: localhost
   tags: 
       - apache
   roles:
